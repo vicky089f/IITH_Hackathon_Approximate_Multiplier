@@ -22,6 +22,10 @@ In the reference circuit, the partial product reduction structure and the ripple
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Xilin_Architecture.png)
 
 ## Tools Used
+1. Synopsys Custom Compiler: For Circuit Design
+2. Synopsys 28nm PDK
+3. Synopsys PrimeWave: For simulations and viewing waveforms
+
 
 ## Proposed Approximate 4:2 Compressor
 The approximate compressor is an arithmetic module that takes 4 inputs: X1, X2, X3, X4, and reduces it to give 2 outputs: Sum and Carry. It has been designed by introducing a few errors in the truth table, as shown below. The error distance of '-1' has been introduced for five cases, and the total probability of error of the compressor is 37/256.
@@ -56,7 +60,7 @@ The approximate compressor is an arithmetic module that takes 4 inputs: X1, X2, 
 ### Exact 4:2 Compressor
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Exact%20Compressor.png)
 
-## Modules proposed by Xilin Yi in the paper
+## Synopsys schematic of the modules proposed the authors in the paper
 
 ### Proposed NAND Gate
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Xilin%20NAND.png)
@@ -66,6 +70,20 @@ The approximate compressor is an arithmetic module that takes 4 inputs: X1, X2, 
 
 ### Proposed approximate 4:2 compressor
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Xilin%20Approximate%20Compressor.png)
+
+## Synopsys Schematic of the Approximate Multiplier
+![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Xilin%20Multiplier%20Architecture.png)
+
+## Simulation
+### Transient analysis
+![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Simulation.png)
+
+### Input Waveforms
+![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Input%20Waveforms.png)
+
+### Output Waveforms
+![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Output%20Waveforms.png)
+
 
 ## References
 X. Yi, H. Pei, Z. Zhang, H. Zhou and Y. He, "Design of an Energy-Efficient Approximate Compressor for Error-Resilient Multiplications," 2019 IEEE International Symposium on Circuits and Systems (ISCAS), 2019, pp. 1-5, doi: 10.1109/ISCAS.2019.8702199.
