@@ -93,6 +93,10 @@ The approximate compressor is an arithmetic module that takes 4 inputs: X1, X2, 
 ### Output Waveforms
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Output%20Waveforms.png)
 
+For comparison, the multiplier was modelled using Verilog HDL and the same input patter was used to generate the waveforms.
+### Verilog Waveforms
+![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Verilog%20Waveforms.png)
+
 ## Acknowledgement
 1. Synopsys Team/Company
 2. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
