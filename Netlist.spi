@@ -1,11 +1,11 @@
 *  Generated for: PrimeSim
 *  Design library name: Multiplier
-*  Design cell name: tb_mul
+*  Design cell name: tb_mul2
 *  Design view name: schematic
 .lib '/PDK/SAED_PDK32nm/hspice/saed32nm.lib' TT
 
 *Custom Compiler Version S-2021.09
-*Tue Mar  1 05:30:00 2022
+*Tue Mar  1 08:37:17 2022
 
 .global gnd! vdd!
 ********************************************************************************
@@ -312,46 +312,46 @@ xi20 net278 net279 net280 net392 gnd_1 net381 vdd vt_bulk_n_gnd! vt_bulk_p_vdd!
 
 ********************************************************************************
 * Library          : Multiplier
-* Cell             : tb_mul
+* Cell             : tb_mul2
 * View             : schematic
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
 ********************************************************************************
 xi0 a0 a1 a2 a3 a4 a5 a6 a7 b0 b1 b2 b3 b4 b5 b6 b7 gnd! p0 p1 p2 p3 p4 p5 p6 p7
-+ p8 p9 p10 p11 p12 p13 p14 p15 net35 gnd! vdd! ppg_ppr
-v1 net35 gnd! dc=1.8
-v17 a0 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 1u 2u )
-v16 a1 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 2u 4u )
-v15 a2 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 4u 8u )
-v14 a3 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 8u 16u )
-v13 a4 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 16u 32u )
-v12 a5 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 32u 64u )
-v11 a6 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 64u 128u )
-v10 a7 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 128u 256u )
-v9 b0 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 256u 512u )
-v8 b1 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 512u 1024u )
-v7 b2 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 1024u 2048u )
-v6 b3 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 2048u 4096u )
-v5 b4 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 4096u 8192u )
-v4 b5 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 8192u 16384u )
-v3 b6 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 16384u 32768u )
-v2 b7 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 32768u 65536u )
-c33 p15 gnd! c=1p
-c32 p14 gnd! c=1p
-c31 p13 gnd! c=1p
-c30 p12 gnd! c=1p
-c29 p11 gnd! c=1p
-c28 p10 gnd! c=1p
-c27 p9 gnd! c=1p
-c26 p8 gnd! c=1p
-c25 p7 gnd! c=1p
-c24 p6 gnd! c=1p
-c23 p5 gnd! c=1p
-c22 p4 gnd! c=1p
-c21 p3 gnd! c=1p
-c20 p2 gnd! c=1p
-c19 p1 gnd! c=1p
-c18 p0 gnd! c=1p
++ p8 p9 p10 p11 p12 p13 p14 p15 net112 gnd! vdd! ppg_ppr
+v39 b3 gnd! dc=0
+v38 b4 gnd! dc=0
+v40 b1 gnd! dc=0
+v41 a5 gnd! dc=1.8
+v42 a4 gnd! dc=1.8
+v43 a3 gnd! dc=0
+v2 net112 gnd! dc=1.8
+v18 a0 gnd! dc=0 pulse ( 0 1.8 5u 0.1u 0.1u 10u 20u )
+v17 a1 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 10u 40u )
+v16 a2 gnd! dc=0 pulse ( 0 1.8 15u 0.1u 0.1u 5u 20u )
+v12 a6 gnd! dc=0 pulse ( 0 1.8 15u 0.1u 0.1u 20u 40u )
+v11 a7 gnd! dc=0 pulse ( 0 1.8 15u 0.1u 0.1u 5u 10u )
+v10 b0 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 5u 20u )
+v8 b2 gnd! dc=0 pulse ( 0 1.8 0 0.1u 0.1u 5u 10u )
+v5 b5 gnd! dc=0 pulse ( 0 1.8 5u 0.1u 0.1u 10u 20u )
+v4 b6 gnd! dc=0 pulse ( 0 1.8 10u 0.1u 0.1u 20u 40u )
+v3 b7 gnd! dc=0 pulse ( 0 1.8 5u 0.1u 0.1u 5u 10u )
+c34 p15 gnd! c=1p
+c33 p14 gnd! c=1p
+c32 p13 gnd! c=1p
+c31 p12 gnd! c=1p
+c30 p11 gnd! c=1p
+c29 p10 gnd! c=1p
+c28 p9 gnd! c=1p
+c27 p8 gnd! c=1p
+c26 p7 gnd! c=1p
+c25 p6 gnd! c=1p
+c24 p5 gnd! c=1p
+c23 p4 gnd! c=1p
+c22 p3 gnd! c=1p
+c21 p2 gnd! c=1p
+c20 p1 gnd! c=1p
+c19 p0 gnd! c=1p
 
 
 
@@ -360,13 +360,13 @@ c18 p0 gnd! c=1p
 
 
 
-.tran '0.5' '65536u' name=tran
+.tran '0.2u' '40u' name=tran
 
 .option primesim_remove_probe_prefix = 0
 .probe v(*) i(*) level=1
 .probe tran v(a0) v(a1) v(a2) v(a3) v(a4) v(a5) v(a6) v(a7) v(b0) v(b1) v(b2)
 + v(b3) v(b4) v(b5) v(b6) v(b7) v(p0) v(p1) v(p10) v(p11) v(p12) v(p13) v(p14)
-+ v(p15) v(p2) v(p3) v(p4) v(p5) v(p6) v(p7) v(p8) v(p9) i(v1)
++ v(p15) v(p2) v(p3) v(p4) v(p5) v(p6) v(p7) v(p8) v(p9) i(v2)
 
 .temp 25
 
