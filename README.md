@@ -83,6 +83,11 @@ The approximate compressor is an arithmetic module that takes 4 inputs: X1, X2, 
 ### Output Waveforms
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Output%20Waveforms.png)
 
+## Acknowledgement
+1. Synopsys Team/Company
+2. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+3. Chinmaya Panda, IIT Hyderabad
+4. Sameer Durgoji, NIT Karnataka
 
 ## References
 X. Yi, H. Pei, Z. Zhang, H. Zhou and Y. He, "Design of an Energy-Efficient Approximate Compressor for Error-Resilient Multiplications," 2019 IEEE International Symposium on Circuits and Systems (ISCAS), 2019, pp. 1-5, doi: 10.1109/ISCAS.2019.8702199.
