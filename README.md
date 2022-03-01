@@ -21,16 +21,15 @@ In the reference circuit, the partial product reduction structure and the ripple
 
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Xilin_Architecture.png)
 
-## Tools Used
-1. Synopsys Custom Compiler: For Circuit Design
-2. Synopsys 28nm PDK
-3. Synopsys PrimeWave: For simulations and viewing waveforms
-
-
 ## Proposed Approximate 4:2 Compressor
 The approximate compressor is an arithmetic module that takes 4 inputs: X1, X2, X3, X4, and reduces it to give 2 outputs: Sum and Carry. It has been designed by introducing a few errors in the truth table, as shown below. The error distance of '-1' has been introduced for five cases, and the total probability of error of the compressor is 37/256.
 
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Approximate%20Compressor%20TT.png)
+
+## Tools Used
+1. Synopsys Custom Compiler: For Circuit Design
+2. Synopsys 28nm PDK
+3. Synopsys PrimeWave: For simulations and viewing waveforms
 
 ## Synopsys schematic for all the modules used
 ### CMOS Inverter
