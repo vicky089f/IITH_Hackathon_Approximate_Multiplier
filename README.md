@@ -71,6 +71,16 @@ The approximate compressor is an arithmetic module that takes 4 inputs: X1, X2, 
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Xilin%20Approximate%20Compressor.png)
 
 ## Synopsys Schematic of the Approximate Multiplier
+### AND Gate Array used for Partial Product Generation
+![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/AND%20Gate%20Array.png)
+
+### Partial Product Generation & Stage 1 of Reduction
+![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Stage%201.png)
+
+### Stage 2 of Reduction and Ripple Carry Adder Stage
+![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Stage%202.png)
+
+### Complete Multiplier Structure
 ![](https://github.com/vicky089f/Approximate_Multiplier/blob/main/Images/Xilin%20Multiplier%20Architecture.png)
 
 ## Simulation
