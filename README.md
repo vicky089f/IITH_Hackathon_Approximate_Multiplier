@@ -1,4 +1,4 @@
-# Approximate_Multiplier
+# Approximate Multiplier
 Dadda multiplier using half adders, full adders, exact 4:2 compressors and approximate 4:2 compressors
 
 ## Table of Contents
